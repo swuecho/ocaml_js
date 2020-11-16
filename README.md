@@ -1,6 +1,6 @@
-# ocaml_js
+# branches
 
-## [function_only](https://github.com/swuecho/ocaml_js/tree/master)
+## [master](https://github.com/swuecho/ocaml_js/tree/master)
 
 complie ocaml exe to js.
 
