@@ -1,5 +1,4 @@
-(executable
- (name main)
- (preprocess
-  (pps js_of_ocaml-ppx))
- (modes js))
+(library
+ (name my_math)
+  (modes js)
+ )

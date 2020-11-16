@@ -2,10 +2,10 @@ EXCLUDE_QUERY_DIR
 B /Users/hwu/.opam/default/lib/js_of_ocaml
 B /Users/hwu/.opam/default/lib/ocaml
 B /Users/hwu/.opam/default/lib/uchar
-B _build/default/.main.eobjs/byte
+B _build/default/.my_math.objs/byte
 S /Users/hwu/.opam/default/lib/js_of_ocaml
 S /Users/hwu/.opam/default/lib/ocaml
 S /Users/hwu/.opam/default/lib/uchar
 S .
-FLG -ppx '/Users/hwu/dev/ocaml_js/_build/default/.ppx/7b799aed44581cc79b02033532c5f775/ppx.exe --as-ppx'
+FLG -ppx '/Users/hwu/dev/ocaml_js/_build/default/.ppx/7b799aed44581cc79b02033532c5f775/ppx.exe --as-ppx --cookie '\''library-name="my_math"'\'''
 FLG -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs
